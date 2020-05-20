@@ -6,9 +6,9 @@ layout: default
 
 ## Who Am I?
 
-![](image.jpeg)
+![Thats me. Im a shy person](image.jpeg=250)
 
 
 Hi, this is a short intro about myself.
 
-My name is Nur 'Arifah. You can call me Arifah. Im from the school of Electrical Electronic Engineering (triple E for short)
+My name is Nur 'Arifah binte Mohd Shahri. You can call me Arifah. Im from the school of Electrical Electronic Engineering (triple E for short)
