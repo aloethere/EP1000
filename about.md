@@ -6,7 +6,7 @@ layout: default
 
 ## Who Am I?
 
-![Thats me. Im a shy person](image.jpeg=250)
+![Thats me. Im a shy person](image.jpeg =250x)
 
 
 Hi, this is a short intro about myself.
