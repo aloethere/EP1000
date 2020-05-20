@@ -6,8 +6,9 @@ layout: default
 
 ## Who Am I?
 
-![](docs/images/avatar-photo.jpg)
+![](image.jpeg)
 
-*image_caption*
 
-Write something about yourself, your course of study, why you took this Poly-Wide elective and what you hope to gain by the end of this module.
+Hi, this is a short intro about myself.
+
+My name is Nur 'Arifah. You can call me Arifah. Im from the school of Electrical Electronic Engineering (triple E for short)
