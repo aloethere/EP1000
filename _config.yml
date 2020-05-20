@@ -14,9 +14,6 @@ remote-theme: christianezeani/panthera-jekyll
 
 # Side Menu Links
 menu:
-  - text: Home
-    link: /
-    icon: ""
 
   - text: About
     link: /about.html
