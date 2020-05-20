@@ -6,7 +6,7 @@ defaults:
     values:
       layout: default
 
-title: Refrigeted EP1000
+title: Arifah EP1000
 subtitle: Digital Fab & Prototyping Fundamentals
 baseurl: "/EP1000"  # the subpath of your site, e.g. /blog
 # theme: panthera-jekyll
@@ -61,18 +61,9 @@ menu:
 
 # Socialmedia Icons
 social_icons:
-  - name: linkedin
-    link: ""
-    icon: fab fa-linkedin
-
+ 
   - name: github
-    link: ""
+    link: "https://refrigerated.github.io/EP1000/"
     icon: fab fa-github-square
 
-  - name: facebook
-    link: ""
-    icon: fab fa-facebook-square
-
-  - name: twitter
-    link: ""
-    icon: fab fa-twitter
+ 
