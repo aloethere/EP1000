@@ -7,7 +7,7 @@ layout: default
 ## Who Am I?
 
 
-<img src="image.jpeg" width="200">
+<img src="image.jpeg" style="width:250px;"/>
 
 
 Hi, this is an intro about myself.

@@ -4,7 +4,7 @@ layout: default
 
 # Fablab Safety and Tools
 ## Introduction 
-[Fablab SP](https://fablabs.io/labs/fablabsp) is a workshop that offers digital fabrication. In SP Campus, the fablab is equipped with 3D Printers, Laser Cutters, 3D CNC Prototype Mill, PCB Mills and Electronic Workbenches. Therefore, we need to know the [Safety Rules & Regulations](Fab Lab and Workshop Safety Rules & Regulations.pdf)
+[Fablab SP](https://fablabs.io/labs/fablabsp) is a workshop that offers digital fabrication. In SP Campus, the fablab is equipped with 3D Printers, Laser Cutters, 3D CNC Prototype Mill, PCB Mills and Electronic Workbenches. Therefore, we need to know the [Safety Rules & Regulations](Fab%20Lab%20and%20Workshop%20Safety%20Rules%20&%20Regulations.pdf)  before using the Fablab euquipments and machinary.
 
 Although I had not stepped in the Fablab due to the HBL across Singapore, we are told that we will cover Safety Assesment
 
