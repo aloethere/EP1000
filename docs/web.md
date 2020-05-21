@@ -13,7 +13,7 @@ Jake Wright's HTML youtube videos titled [Learn HTML in 12 Minutes](https://www.
 
 ### Some common tags in HTML  
 
-![](https://raw.githubusercontent.com/refrigerated/EP1000/master/docs/htmlcommontags.jpg =200x)
+![](https://raw.githubusercontent.com/refrigerated/EP1000/master/docs/htmlcommontags.jpg)
 
 
 ### This is my first webpage created.  
