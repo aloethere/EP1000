@@ -31,3 +31,26 @@ Take a look at [CSS Zen Garden](http://www.csszengarden.com/) for more styleshee
 
 ## What is JavaScript?
 JavaScript is used to program the behaviour of web pages.
+
+## Markdown
+
+# Version Control  
+Version Control helps manages any changes made on my website.
+
+I used [web-pk Jekyll Template](https://github.com/skeatz/web-pk) for the aesthetics of my web. Here are the steps on how I am able to document any changes on my site.
+
+1. Install Github Desktop
+	- Create new repository ()
+	- Publish repository
+	- Make a folder EP1000 on my local pc.
+2. Clone web-pk
+	- Download [](https://github.com/skeatz/web-pk)
+	- Select "Clone a repository from the internet"
+	- New folder "web-pk" will be created
+3. Copy web-pk 
+	- Copy paste to new repo EP1000
+	- Github Desktop > Comment changes > Commit to Master > Push origin
+	- Dont forget to build from mater branch!
+4. Check site on the browser 
+
+
