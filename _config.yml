@@ -23,13 +23,14 @@ menu:
     link: /docs/safety.html
     icon: ""
 
-  - text: Project Management
-    link: /docs/proj-mgmt.html
-    icon: ""
-
   - text: Web Development
     link: /docs/web.html
     icon: ""
+
+  - text: Version Control
+    link: /docs/version.html
+    icon: ""
+
 
   - text: Computer Aided Design
     link: /docs/cad.html

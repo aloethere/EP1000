@@ -29,16 +29,16 @@ Here are some of the tools that are commonly used:
 7. Measuring Tape  
 
 <span style="color:red"> **Important!** </span>  
-*For protection against tool-related injuries, always wear cut-resistant glove and safety goggles when handling sharp/dangerous tools.*
+For protection against tool-related injuries, always wear **cut-resistant glove** and **safety goggles** when handling sharp/dangerous tools.
 
 
 ## Software Tools
-For this module, I am using 2 main software, mainly [Autodesk Fusion 360](https://www.autodesk.com/products/fusion-360/students-teachers-educators) and [Sublime Text 3](https://www.sublimetext.com/).
+For this module, I am using 2 main software, mainly Autodesk Fusion 360 and Sublime Text 3.
 
-**Fusion 360**  
+[**Fusion 360**](https://www.autodesk.com/products/fusion-360/students-teachers-educators)  
 Fusion 360 is a Computer Aided Design Software that allows the user to design and develope any product. More info on the CAD tab.
 
-**Sublime Text 3**  
+[**Sublime Text 3**](https://www.sublimetext.com)  
 My go-to text editor when documenting on my webpage. I use Sublime Text 3 to write down code in Markdown for this Webpage.
 
 
