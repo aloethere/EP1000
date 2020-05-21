@@ -28,7 +28,7 @@ Here are some of the tools that are commonly used:
 6. Hacksaw
 7. Measuring Tape  
 
-<span style="colour:red"> **Important** </span>span>
+<span style="color:red"> *Important* </span>
 For protection against tool-related injuries, always wear cut resitant glove and safety goggles when handling sharp/dangerous tools.
 
 
