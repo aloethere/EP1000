@@ -7,7 +7,7 @@ layout: default
 ## Who Am I?
 
 
-<img src="image.jpeg" width:250px;/>
+![](image.jpeg)
 
 
 Hi, this is an intro about myself.

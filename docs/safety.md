@@ -35,10 +35,10 @@ Here are some of the tools that are commonly used:
 ## Software Tools
 For this module, I am using 2 main software, mainly [Autodesk Fusion 360](https://www.autodesk.com/products/fusion-360/students-teachers-educators) and [Sublime Text 3](https://www.sublimetext.com/).
 
-**Fusion 360**
+**Fusion 360**  
 Fusion 360 is a Computer Aided Design Software that allows the user to design and develope any product. More info on the CAD tab.
 
-**Sublime Text 3**
+**Sublime Text 3**  
 My go-to text editor when documenting on my webpage. I use Sublime Text 3 to write down code in Markdown for this Webpage.
 
 
