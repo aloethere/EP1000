@@ -19,7 +19,7 @@ menu:
     link: /about.html
     icon: ""
 
-  - text: Fablab Safety
+  - text: Fablab Safety & Tools
     link: /docs/safety.html
     icon: ""
 
@@ -62,5 +62,9 @@ social_icons:
   - name: github
     link: ""
     icon: fab fa-github-square
+
+    name: instagram
+    link: "https://www.instagram.com/nurarifahshah/?hl=en"
+    icon: fab fa-instagram  
 
  
