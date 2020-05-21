@@ -30,10 +30,10 @@ CSS stands for Cascading Style Sheets. CSS describes how HTML elements are to be
 Take a look at [CSS Zen Garden](http://www.csszengarden.com/) for more stylesheets.
 
 ## What is JavaScript?
-JavaScript is used to program the behaviour of web pages.
+JavaScript is used to program the behaviour of web pages. For now I'm not using JavaScript to create my webpage.
 
 ## Markdown
-Markdown is the language that im using to edit this webpage. It's plain-text-formatting-syntext design attracted use it. It is simple and easy to format words and elements.  
+Markdown is the language that im using to edit this webpage. It's plain-text-formatting-syntext design attracted me to use it. It is simple and easy to format words and elements.  
 
-[Markdown Guide](https://www.markdownguide.org/) is the best plave to get started in learning Markdown.
+[Markdown Guide](https://www.markdownguide.org/) is the best place to get started in learning Markdown.
 
