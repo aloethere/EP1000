@@ -3,8 +3,10 @@ layout: default
 ---
 
 # Fablab Safety and Tools
-## Introduction
-Safety is paramount when working in our laboratories and workshop. Document the main points, information that you need to take note of when working in SP Fablab, what are some of the key **do**'s and **don't**'s that you need to take note of, what to do in case of emergencies.
+## Introduction 
+[Fablab SP](https://fablabs.io/labs/fablabsp) is a workshop that offers digital fabrication. In SP Campus, the fablab is equipped with 3D Printers, Laser Cutters, 3D CNC Prototype Mill, PCB Mills and Electronic Workbenches. Therefore, we need to know the [Safety Rules & Regulations](Fab Lab and Workshop Safety Rules & Regulations.pdf)
+
+Although I had not stepped in the Fablab due to the HBL across Singapore, we are told that we will cover Safety Assesment
 
 ## Hand Tools
 In Fablab, we have to get familiar with the tools available. You may check out a variety of tools and their prices here on [Horme]
