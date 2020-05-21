@@ -11,7 +11,7 @@ HTML stands for **H**yper **T**ext **M**arkup **L**anguage. HTML is the standard
 
 Jake Wright's HTML youtube videos titled [Learn HTML in 12 Minutes](https://www.youtube.com/watch?v=bWPMSSsVdPk&t=448s) and [Learn More HTML in 12 Minutes](https://www.youtube.com/watch?v=KJ13lX20FqU&t=384s) offers a clear basic explaination of HTML elements and attributes.  
 
-### Some common Tags in HTML
+### Some common tags in HTML
 ![](docs/images/htmlcommontags.jpg)
 
 
