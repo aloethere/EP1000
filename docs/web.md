@@ -13,20 +13,19 @@ Jake Wright's HTML youtube videos titled [Learn HTML in 12 Minutes](https://www.
 
 ### Some common tags in HTML  
 
-![](docs/htmlcommontags.jpg)
+![](https://raw.githubusercontent.com/refrigerated/EP1000/master/docs/htmlcommontags.jpg)
 
 
 ### This is my first webpage created.  
 
-![](docs/firstwebpage.jpg)
-
+![](https://raw.githubusercontent.com/refrigerated/EP1000/master/docs/firstwebpage.jpg)
 
 
 ## What is CSS? 
 CSS stands for Cascading Style Sheets. CSS describes how HTML elements are to be displayed on screen. It specify the layout makes the design of the webpage visually more pleasing.  
 
 
-![](docs/csszengarden.jpg) 
+![](https://raw.githubusercontent.com/refrigerated/EP1000/master/docs/csszengarden.jpg) 
 
 Take a look at [CSS Zen Garden](http://www.csszengarden.com/) for more stylesheets.
 
