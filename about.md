@@ -7,7 +7,7 @@ layout: default
 ## Who Am I?
 
 
-![](image.jpeg)
+![](images/profile.jpg)
 
 
 Hi, this is an intro about myself.
