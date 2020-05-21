@@ -11,20 +11,24 @@ HTML stands for **H**yper **T**ext **M**arkup **L**anguage. HTML is the standard
 
 Jake Wright's HTML youtube videos titled [Learn HTML in 12 Minutes](https://www.youtube.com/watch?v=bWPMSSsVdPk&t=448s) and [Learn More HTML in 12 Minutes](https://www.youtube.com/watch?v=KJ13lX20FqU&t=384s) offers a clear basic explaination of HTML elements and attributes.  
 
-### Some common tags in HTML
-![](docs/images/htmlcommontags.jpg)
+### Some common tags in HTML  
+
+![](docs/htmlcommontags.jpg)
 
 
 ### This is my first webpage created.  
-![](docs/images/firstwebpage.jpg)
+
+![](docs/firstwebpage.jpg)
 
 
 
 ## What is CSS? 
-CSS stands for Cascading Style Sheets. CSS describes how HTML elements are to be displayed on screen. It makes the design of the webpage visually more pleasing.
+CSS stands for Cascading Style Sheets. CSS describes how HTML elements are to be displayed on screen. It specify the layout makes the design of the webpage visually more pleasing.  
 
-![](docs/images/csszengarden.jpg) 
+
+![](docs/csszengarden.jpg) 
 
 Take a look at [CSS Zen Garden](http://www.csszengarden.com/) for more stylesheets.
 
 ## What is JavaScript?
+JavaScript is used to program the behaviour of web pages.
