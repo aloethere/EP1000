@@ -18,14 +18,16 @@ GIMP has many capabilities to work with. However, I prefer using my Microsoft Po
 It is a powerful software that allows the user to create any design model on a computer.
 
 ### Exercise 1
-![](https://raw.githubusercontent.com/refrigerated/EP1000/master/docs/images/Ex1.png)
+![](https://raw.githubusercontent.com/refrigerated/EP1000/master/docs/images/Ex1.png)  
+
 [DFAB Exersise 1.f3d](https://github.com/refrigerated/EP1000/blob/master/DFAB%20Exercise%201%20v1.f3d)
 
 ### Exercise 2
-![](https://raw.githubusercontent.com/refrigerated/EP1000/master/docs/images/Ex2.png)
+![](https://raw.githubusercontent.com/refrigerated/EP1000/master/docs/images/Ex2.png)  
+
 [DFAB Exersise 2.f3d](https://github.com/refrigerated/EP1000/blob/master/DFAB%20Exercise%202%20v2.f3d)
 
-### Exercise 3
+### Exercise 3  
 
 ### Personalised Keytag
 ![](https://raw.githubusercontent.com/refrigerated/EP1000/master/docs/images/keytag.png)
@@ -34,8 +36,10 @@ It is a powerful software that allows the user to create any design model on a c
 
 ### Fidget Spinner  
 
-![Sketch](https://raw.githubusercontent.com/refrigerated/EP1000/master/docs/images/fidgetsketch.jpeg)
-![](https://raw.githubusercontent.com/refrigerated/EP1000/master/docs/images/Fidget%20Spinner.png)
+![Sketch](https://raw.githubusercontent.com/refrigerated/EP1000/master/docs/images/sketch.jpg)  
+
+![](https://raw.githubusercontent.com/refrigerated/EP1000/master/docs/images/Fidget%20Spinner.png)  
+
 [FIdget_Spinner.f3d](https://github.com/refrigerated/EP1000/blob/master/Fidget_Spinner.f3d) 
 
 
