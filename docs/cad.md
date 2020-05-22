@@ -28,6 +28,10 @@ It is a powerful software that allows the user to create any design model on a c
 [DFAB Exersise 2.f3d](https://github.com/refrigerated/EP1000/blob/master/DFAB%20Exercise%202%20v2.f3d?raw=true)
 
 ### Exercise 3  
+![](https://raw.githubusercontent.com/refrigerated/EP1000/master/docs/images/Ex3.png)
+
+[DFAB Exercise 3.f3d](https://github.com/refrigerated/EP1000/blob/master/DFAB%20Exersize%203%20v2.f3d?raw=true)
+
 
 ### Personalised Keytag
 ![](https://raw.githubusercontent.com/refrigerated/EP1000/master/docs/images/keytag.png)  
@@ -38,7 +42,7 @@ It is a powerful software that allows the user to create any design model on a c
 ### Fidget Spinner
 	- Ball bearing and hex nut given.
 	- Draw one arm
-	- Create > Patter > Circular Pattern  
+	- Create > Pattern > Circular Pattern  
 
 ![Sketch](https://raw.githubusercontent.com/refrigerated/EP1000/master/docs/images/sketch.jpg)  
 
