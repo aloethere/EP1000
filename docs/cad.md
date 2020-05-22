@@ -20,7 +20,7 @@ It is a powerful software that allows the user to create any design model on a c
 ### Exercise 1
 ![](https://raw.githubusercontent.com/refrigerated/EP1000/master/docs/images/Ex1.png)  
 
-[DFAB Exersise 1.f3d](https://github.com/refrigerated/EP1000/blob/master/DFAB%20Exercise%201%20v1.f3d)
+[DFAB Exersise 1.f3d](https://github.com/refrigerated/EP1000/blob/master/DFAB%20Exercise%201%20v1.f3d?raw=true)
 
 ### Exercise 2
 ![](https://raw.githubusercontent.com/refrigerated/EP1000/master/docs/images/Ex2.png)  
@@ -48,5 +48,5 @@ It is a powerful software that allows the user to create any design model on a c
 ![Chess_knight.f3d]https://github.com/refrigerated/EP1000/blob/master/KnightChess%20v1.f3d)
 
 
-
+https://github.com/refrigerated/EP1000/blob/master/DFAB%20Exercise%201%20v1.f3d?raw=true
 
