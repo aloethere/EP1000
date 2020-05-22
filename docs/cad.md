@@ -48,7 +48,8 @@ It is a powerful software that allows the user to create any design model on a c
 
 ### Chess Knight
 	- Use Revolve for the base
-	- Extrude for the horse body.  
+	- Extrude for the horse body 
+
 ![](https://raw.githubusercontent.com/refrigerated/EP1000/master/docs/images/knight.png)  
 
 [Chess_knight.f3d](https://github.com/refrigerated/EP1000/blob/master/KnightChess%20v1.f3d?raw=true)
