@@ -3,7 +3,7 @@ Version Control helps manages any changes made on my website.
 
 I used [web-pk Jekyll Template](https://github.com/skeatz/web-pk) for the aesthetics of my web. Here are the steps on how I am able to document any changes on my site.
 
-1. Install Github Desktop
+1. Install [Github Desktop](https://desktop.github.com/)  
 	- Create new repository
 	- Publish repository
 	- Make a folder EP1000 on my local pc.  
