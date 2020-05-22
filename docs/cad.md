@@ -25,13 +25,14 @@ It is a powerful software that allows the user to create any design model on a c
 ### Exercise 2
 ![](https://raw.githubusercontent.com/refrigerated/EP1000/master/docs/images/Ex2.png)  
 
-[DFAB Exersise 2.f3d](https://github.com/refrigerated/EP1000/blob/master/DFAB%20Exercise%202%20v2.f3d)
+[DFAB Exersise 2.f3d](https://github.com/refrigerated/EP1000/blob/master/DFAB%20Exercise%202%20v2.f3d?raw=true)
 
 ### Exercise 3  
 
 ### Personalised Keytag
-![](https://raw.githubusercontent.com/refrigerated/EP1000/master/docs/images/keytag.png)
-[Keytag.f3d](https://github.com/refrigerated/EP1000/blob/master/Name_Tag_Project_v5.f3d)
+![](https://raw.githubusercontent.com/refrigerated/EP1000/master/docs/images/keytag.png)  
+
+[Keytag.f3d](https://github.com/refrigerated/EP1000/blob/master/Name_Tag_Project_v5.f3d?raw=true)
 
 
 ### Fidget Spinner  
@@ -40,13 +41,13 @@ It is a powerful software that allows the user to create any design model on a c
 
 ![](https://raw.githubusercontent.com/refrigerated/EP1000/master/docs/images/Fidget%20Spinner.png)  
 
-[FIdget_Spinner.f3d](https://github.com/refrigerated/EP1000/blob/master/Fidget_Spinner.f3d) 
+[FIdget_Spinner.f3d](https://github.com/refrigerated/EP1000/blob/master/Fidget_Spinner.f3d?raw=true) 
 
 ### Chess Knight  
 ![](https://raw.githubusercontent.com/refrigerated/EP1000/master/docs/images/knight.png)  
 
-![Chess_knight.f3d]https://github.com/refrigerated/EP1000/blob/master/KnightChess%20v1.f3d)
+![Chess_knight.f3d](https://github.com/refrigerated/EP1000/blob/master/KnightChess%20v1.f3d?raw=true)
 
 
-https://github.com/refrigerated/EP1000/blob/master/DFAB%20Exercise%201%20v1.f3d?raw=true
+
 
