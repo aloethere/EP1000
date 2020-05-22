@@ -35,18 +35,23 @@ It is a powerful software that allows the user to create any design model on a c
 [Keytag.f3d](https://github.com/refrigerated/EP1000/blob/master/Name_Tag_Project_v5.f3d?raw=true)
 
 
-### Fidget Spinner  
+### Fidget Spinner
+	- Ball bearing and hex nut given.
+	- Draw one arm
+	- Create > Patter > Circular Pattern  
 
 ![Sketch](https://raw.githubusercontent.com/refrigerated/EP1000/master/docs/images/sketch.jpg)  
 
 ![](https://raw.githubusercontent.com/refrigerated/EP1000/master/docs/images/Fidget%20Spinner.png)  
 
-[FIdget_Spinner.f3d](https://github.com/refrigerated/EP1000/blob/master/Fidget_Spinner.f3d?raw=true) 
+[Fidget_Spinner.f3d](https://github.com/refrigerated/EP1000/blob/master/Fidget_Spinner.f3d?raw=true) 
 
-### Chess Knight  
+### Chess Knight
+	- Use Revolve for the base
+	- Extrude for the horse body.  
 ![](https://raw.githubusercontent.com/refrigerated/EP1000/master/docs/images/knight.png)  
 
-![Chess_knight.f3d](https://github.com/refrigerated/EP1000/blob/master/KnightChess%20v1.f3d?raw=true)
+[Chess_knight.f3d](https://github.com/refrigerated/EP1000/blob/master/KnightChess%20v1.f3d?raw=true)
 
 
 
