@@ -2,10 +2,17 @@
 layout: default
 ---
 
-# Final Project
+# Split Flap Counter
 Summary project for the Digital Fabrication & Prototyping Fundamentals module
 
-Document your project development here, as well as the final project outcome. For example your project could be broken down into the following sections:
+I plan to create a Youtube Subcriber Counter using the split flap mechanism controlled by a servo motor using arduino. The counter will use a split flap mechanism and was inspired by counters like (Smiirl)[https://www.smiirl.com/en/store?gclid=EAIaIQobChMIvvTDg8Ls6gIVlH0rCh0ipgDZEAAYASAAEgKEMfD_BwE] and (FlapIt)[https://www.flapit.com/].
+
+## Items Needed
+
+- ### Flaps
+- ### Flaps mechanism
+		- Spool
+		- Tongue
 
 ## Concept
 
