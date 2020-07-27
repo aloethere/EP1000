@@ -10,9 +10,19 @@ I plan to create a Youtube Subcriber Counter using the split flap mechanism cont
 ## Items Needed
 
 - ### Flaps
+		- Numbers 1 to 10
+		- Laser Cut
+		- Numbers will be placed using stickers
 - ### Flaps mechanism
 		- Spool
 		- Tongue
+		- Servo motor
+- ### 3D Logo
+- ### 3D Frame
+- ### Wifi Module (ESP8266)
+- ### Power Bank/Battery
+- ### Hall effect sensor
+- ### 5V adapter		
 
 ## Concept
 
