@@ -53,3 +53,9 @@ What conclusions can you draw from your final project? What are the issues/probl
 ## Design files & Source Code
 
 Include all original design files and source code for your project.
+
+## References
+
+[Button Spit Flap White](https://www.instructables.com/id/Split-Flap-Display/)
+[Scottbez Split Flap github](https://github.com/scottbez1/splitflap)
+[Weather forecast Split Flap](https://www.instructables.com/id/IoT-Split-flap-Weather-Forecast-Powered-by-XOD/)
