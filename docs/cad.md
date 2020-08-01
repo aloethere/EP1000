@@ -35,13 +35,19 @@ After: Now i have scaled it to 500px.
 **- How to remove a background from a photo.**
 
 I will use this picture of a refrigerator and change the background with another picture. Below are the steps on how to achieve this.
-![]()
-![]()
+![](https://github.com/refrigerated/EP1000/blob/master/docs/images/da012972810140e5bed7f1b915d9d0c7.jpg?raw=true)
+![](https://github.com/refrigerated/EP1000/blob/master/docs/images/refchangebackgrnd.jpg?raw=true)<br/>
+
 **Step 1:** Open the image for which you want to change the background by going to File > Open. <br/>
+
 **Step 2:** Next, using File > Open as Layers, open the image that you want to keep as the background. <br/>
+
 **Step 3:** You will see that the new image will cover the original image. Now from the Layer panel on the right, hold the mouse pointer and drag the new background image below the original image. <br/>
+
 **Step 4:** Again, in the Layer panel, right-click on the original image and select Add Alpha Channel. In case the button is greyed out, it means it is already added. <br/>
+
 **Step 5:** After adding the alpha channel, again right-click on the same layer and now choose Alpha to Selection from the menu.<br/>
+
 **Step 6:** Click on the Eraser tool from the tools panel in the left and start removing the background to reveal the new one.<br/>
 
 
