@@ -28,14 +28,23 @@ layout: default
 
 Before: This is a picture of a refrigerator that has a height of 751px originally. 
 ![](https://github.com/refrigerated/EP1000/blob/master/docs/images/a%20nice%20refrigerator.png?raw=true) <br/>
+
 After: Now i have scaled it to 500px.
 ![](https://github.com/refrigerated/EP1000/blob/master/docs/images/500pxregrigerator.png?raw=true)
 
 **- How to remove a background from a photo.**
 
-|Column 1 | Column 2 |
-|:------- | :--------|
-|![]()
+I will use this picture of a refrigerator and change the background with another picture. Below are the steps on how to achieve this.
+![]()
+**Step 1:**Open the image for which you want to change the background by going to File > Open.
+**Step 2:**Next, using File > Open as Layers, open the image that you want to keep as the background.
+**Step 3:**You will see that the new image will cover the original image. Now from the Layer panel on the right, hold the mouse pointer and drag the new background image below the original image.
+**Step 4:** Again, in the Layer panel, right-click on the original image and select Add Alpha Channel. In case the button is greyed out, it means it is already added.
+**Step 5:**After adding the alpha channel, again right-click on the same layer and now choose Alpha to Selection from the menu.
+**Step 6:**Click on the Eraser tool from the tools panel in the left and start removing the background to reveal the new one.<br/>
+
+
+
 
 ## Autodesk Fusion 360
 It is a powerful software that allows the user to create any design model on a computer.
