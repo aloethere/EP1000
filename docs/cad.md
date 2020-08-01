@@ -11,19 +11,19 @@ layout: default
 
 **- How to resize a photograph to a height of 500 pixels.**
 
-	1. File
-	2. Open Image > Choose your image 
+1. File
+2. Open Image > Choose your image 
 	![](https://github.com/refrigerated/EP1000/blob/master/docs/images/ref12.png?raw=true)
 
-	3. Image 
-	4. Scale Image 
+3. Image 
+4. Scale Image 
 	![](https://github.com/refrigerated/EP1000/blob/master/docs/images/ref34.png?raw=true)
 
-	5. Change height to 500px
-	6. Scale 
+5. Change height to 500px
+6. Scale 
 	![](https://github.com/refrigerated/EP1000/blob/master/docs/images/ref56.png?raw=true) <br/><br/>
 
-		- How to remove a background from a photo.
+**- How to remove a background from a photo.**
 
 	1.
 	2.
