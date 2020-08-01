@@ -13,26 +13,30 @@ layout: default
 
 1. File
 2. Open Image > Choose your image 
+<br/>
 	![](https://github.com/refrigerated/EP1000/blob/master/docs/images/ref12.png?raw=true)
 
 3. Image 
-4. Scale Image 
+4. Scale Image
+<br/> 
 	![](https://github.com/refrigerated/EP1000/blob/master/docs/images/ref34.png?raw=true)
 
 5. Change height to 500px
 6. Scale 
-	![](https://github.com/refrigerated/EP1000/blob/master/docs/images/ref56.png?raw=true) <br/><br/>
+<br/>
+	![](https://github.com/refrigerated/EP1000/blob/master/docs/images/ref56.png?raw=true) <br/>
+
+Before: This is a picture of a refrigerator that has a height of 751px originally. 
+After: Now i have scaled it to 500px.
+
+![](https://github.com/refrigerated/EP1000/blob/master/docs/images/a%20nice%20refrigerator.png?raw=true)
+![](https://github.com/refrigerated/EP1000/blob/master/docs/images/500pxregrigerator.png?raw=true)
 
 **- How to remove a background from a photo.**
 
-	1.
-	2.
-	3.
-	4.
-	5.
-
-
-
+|Column 1 | Column 2 |
+|:------- | :--------|
+|![]()
 
 ## Autodesk Fusion 360
 It is a powerful software that allows the user to create any design model on a computer.
