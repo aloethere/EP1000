@@ -27,9 +27,8 @@ layout: default
 	![](https://github.com/refrigerated/EP1000/blob/master/docs/images/ref56.png?raw=true) <br/>
 
 Before: This is a picture of a refrigerator that has a height of 751px originally. 
+![](https://github.com/refrigerated/EP1000/blob/master/docs/images/a%20nice%20refrigerator.png?raw=true) <br/>
 After: Now i have scaled it to 500px.
-
-![](https://github.com/refrigerated/EP1000/blob/master/docs/images/a%20nice%20refrigerator.png?raw=true)
 ![](https://github.com/refrigerated/EP1000/blob/master/docs/images/500pxregrigerator.png?raw=true)
 
 **- How to remove a background from a photo.**
