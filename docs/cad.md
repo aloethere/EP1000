@@ -34,7 +34,7 @@ After: Now i have scaled it to 500px.
 
 **- How to remove a background from a photo.**
 
-I will use this picture of a refrigerator and change the background with another picture. Below are the steps on how to achieve this.
+I will use this picture of a refrigerator and change the background with another picture. Below are the steps on how to achieve this.<br/>
 ![](https://github.com/refrigerated/EP1000/blob/master/docs/images/da012972810140e5bed7f1b915d9d0c7.jpg?raw=true)
 ![](https://github.com/refrigerated/EP1000/blob/master/docs/images/refchangebackgrnd.jpg?raw=true)<br/>
 
