@@ -39,7 +39,7 @@ I begin this project with the flaps first beacuse it is the simplest thing to cr
 The numbers on the flaps are placed using white sticker labels since this is just a prototype. I feel that engraving would be too time consuming and could not be undone if I want to change the characters on the flaps. The font im using is called Solari. I printed it out on paper and cut out using penknife so I could trace it on my sticker labels like a stencil. The flap layout with text was a bit tricky, but once you understand the concept it's pretty simple. Basically the "front" of each flap pair is a whole number, and the "back" of each flap pair has the bottom of the next number and the top of the previous number. So "1" has the bottom of "2" behind its top flap, and the top of "0" behind its bottom flap.
 
 The laser layout for the text modules looks like this:
-![]()
+![](https://github.com/refrigerated/EP1000/blob/master/docs/images/Flaps%20number%20position.jpeg?raw=true)
 
 ###Wheel
 
@@ -48,6 +48,9 @@ This part is very tricky for me to get it right. Every millimeter makes a differ
 The diameter of the wheel also plays a role on making sure it can turn well. I used 60mm for my diameter. One of the wheel has a shape precisedly cutted out following the shape of my stepper motor on the middle. And my other wheel has a M4 hex cutted right on its middle.
 
 I also made 4 rectangluar cuts for my spool to fit in. With some calculations, I could easily figure where the cuts should be.
+![](https://github.com/refrigerated/EP1000/blob/master/docs/images/wheels%20with%20hex%20nut.jpeg?raw=true)
+![](https://github.com/refrigerated/EP1000/blob/master/docs/images/left%20side%20of%20wheel%20with%20hex.jpeg?raw=true)
+![](https://github.com/refrigerated/EP1000/blob/master/docs/images/insert%20extra%20thing.jpeg?raw=true)
 
 ###Spool
 I made a simple square spool and used the pressed fit method to join them together. Then, to ease my assembly, I glued them together.
@@ -55,8 +58,11 @@ I made a simple square spool and used the pressed fit method to join them togeth
 
 ###Plates
 Initially I plan to make the housing out of laser cuts, however my design falls short for the whole unit to stand up. I created a new one with laser cutting too after carefully measuring the longest end when the whell is spinning.
-###House
-After assembling the Flaps, spools and wheel together, I measured the whole unit and 3D design a house so that my counter can stand on its own. There are some 
+![](https://github.com/refrigerated/EP1000/blob/master/docs/images/original%20design%20of%20side%20housing.jpeg?raw=true)
+
+###3D Print
+![](https://github.com/refrigerated/EP1000/blob/master/docs/images/3d%20printing.....mp4)
+
 
 ### Arduino wiring and Code
 The wiring is very simple for this project. When I upload the code, I should be able to control the servo motor forward by pressing the Blue button. And stops when I pressed the red button.
