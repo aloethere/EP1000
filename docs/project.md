@@ -5,42 +5,63 @@ layout: default
 # Split Flap Counter
 Summary project for the Digital Fabrication & Prototyping Fundamentals module
 
-I plan to create a Youtube Subcriber Counter. The counter will use a split flap mechanism and was inspired by counters like [Smiirl](https://www.smiirl.com/en/store?gclid=EAIaIQobChMIvvTDg8Ls6gIVlH0rCh0ipgDZEAAYASAAEgKEMfD_BwE) and [FlapIt](https://www.flapit.com/).
+I plan to create a Youtube/Instagram Subcriber Counter. The counter will use a split flap mechanism and was inspired by counters like [Smiirl](https://www.smiirl.com/en/store?gclid=EAIaIQobChMIvvTDg8Ls6gIVlH0rCh0ipgDZEAAYASAAEgKEMfD_BwE) and [FlapIt](https://www.flapit.com/). However due to its complexity, i decided to make the counter with only a basic and simple prototype. When I have succeeded this prototype for my DFAB project, I would built on it and make it do awesome things, like the initial plan; A subscriber counter or some other ideas, like a clock.
+
+
+## Concept
+
+The old school split flap display is cool and mesmerising to look at. To help build my counter, I will be laser cutting a lot of the split flap mechanics and 3D print the house.
+
 
 ## Items Needed
 
 - ### Flaps
-		- Numbers 1 to 10, 4 digit
-		- Laser Cut
-		- Numbers will be placed using stickers
-- ### Flaps mechanism
-		- Spool
-		- Tongue
-		- Servo motor
-- ### 3D Logo
-- ### 3D Frame
-- ### Wifi Module (ESP8266)
-- ### Power Bank/Battery
-- ### Hall effect sensor (AH1815)
-- ### 5V adapter		
+- ### Spool
+- ### Wheel
+- ### 3D Frame or housing
+- ### Electronics:
+		- Arduino Uno
+		- Half size breadboard 
+		- 3 push buttons
+		- Stepper motor 28BYJ-48 and ULN2003 driver motor.
+		- 6 male to female wire
+		- 4 male to male wire.
+- ### Hardware
+		-
+		-
+		-
 
-## Concept
+## Laser Cuts:
+###Flaps
 
-The old school split flap display is cool and mesmerising to look at. Nowadays, more people are keen to start a youtube career. If you are a creative person and loves to create contents, making youtube videos may be a dream job.
+I begin this project with the flaps first beacuse it is the simplest thing to create. I drew my sketch on Fusion 360 and laser cut on a 3mm acrylic board. Since the flaps are quite thick to be placed on a rotating wheel, I could only place digit number 1 till 0. I followed the dimension of a standard business card as my guide. From here, I could estimate the dimension of other laser cutting parts.
 
-I plan to create a Youtube Subcriber Counter. The counter will use a split flap mechanism that was inspired by counters like [Smiirl](https://www.smiirl.com/en/store?gclid=EAIaIQobChMIvvTDg8Ls6gIVlH0rCh0ipgDZEAAYASAAEgKEMfD_BwE) and [FlapIt](https://www.flapit.com/). My split flap display will be able to count how many youtube subscribers I have and display accprdingly. It uses the stepper motor turn the spool to the desired  number. And the motor will be controlled by arduino. To help build my counter, I will be laser cutting a lot of the split flap mechanics and 3D print the house.
+The numbers on the flaps are placed using white sticker labels since this is just a prototype. I feel that engraving would be too time consuming and could not be undone if I want to change the characters on the flaps. The font im using is called Solari. I printed it out on paper and cut out using penknife so I could trace it on my sticker labels like a stencil. The flap layout with text was a bit tricky, but once you understand the concept it's pretty simple. Basically the "front" of each flap pair is a whole number, and the "back" of each flap pair has the bottom of the next number and the top of the previous number. So "1" has the bottom of "2" behind its top flap, and the top of "0" behind its bottom flap.
 
-## Implementation
+The laser layout for the text modules looks like this:
 
-This project will implement all the skills taught in this Digital Fabrication module. 
 
-- ### CAD
-- ### 3D Printing
-- ### Laser Cutting
-Flaps
-<iframe src="https://ichat754.autodesk360.com/shares/public/SH56a43QTfd62c1cd96856b6f79882867d9a?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-- ### Electronics
-- ### Programming
+###Wheel
+
+This part is very tricky for me to get it right. Every millimeter makes a difference. I made few mistakes of getting the holes for each tiny arms of the flaps too wide and too close to each other. The circular holes for the little arms of its flaps is used using the circular pattern tool on fusion. To make sure that the top and bottom flaps do not align to far apart, make sure between each hole is at most 10mm apart. 
+
+The diameter of the wheel also plays a role on making sure it can turn well. I used 60mm for my diameter. One of the wheel has a shape precisedly cutted out following the shape of my stepper motor on the middle. And my other wheel has a M4 hex cutted right on its middle.
+
+I also made 4 rectangluar cuts for my spool to fit in. With some calculations, I could easily figure where the cuts should be.
+
+###Spool
+I made a simple square spool and used the pressed fit method to join them together. Then, to ease my assembly, I glued them together.
+
+
+###Plates
+Initially I plan to make the housing out of laser cuts, however my design falls short for the whole unit to stand up. So I only use the plates to fit them left and right. I also created a few 3D components to fix my mistake. 
+
+###House
+After assembling the Flaps, spools and wheel together, I measured the whole unit and 3D design a house so that my counter can stand on its own. There are some 
+
+### Arduino wiring and Code
+The wiring is very simple for this project. When I upload the code, I should be able to control the servo motor forward by pressing the Blue button. And stops when I pressed the red button.
+
 
 ## Testing
 
