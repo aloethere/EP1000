@@ -39,7 +39,7 @@ I begin this project with the flaps first beacuse it is the simplest thing to cr
 The numbers on the flaps are placed using white sticker labels since this is just a prototype. I feel that engraving would be too time consuming and could not be undone if I want to change the characters on the flaps. The font im using is called Solari. I printed it out on paper and cut out using penknife so I could trace it on my sticker labels like a stencil. The flap layout with text was a bit tricky, but once you understand the concept it's pretty simple. Basically the "front" of each flap pair is a whole number, and the "back" of each flap pair has the bottom of the next number and the top of the previous number. So "1" has the bottom of "2" behind its top flap, and the top of "0" behind its bottom flap.
 
 The laser layout for the text modules looks like this:
-
+![]()
 
 ###Wheel
 
@@ -54,16 +54,12 @@ I made a simple square spool and used the pressed fit method to join them togeth
 
 
 ###Plates
-Initially I plan to make the housing out of laser cuts, however my design falls short for the whole unit to stand up. So I only use the plates to fit them left and right. I also created a few 3D components to fix my mistake. 
-
+Initially I plan to make the housing out of laser cuts, however my design falls short for the whole unit to stand up. I created a new one with laser cutting too after carefully measuring the longest end when the whell is spinning.
 ###House
 After assembling the Flaps, spools and wheel together, I measured the whole unit and 3D design a house so that my counter can stand on its own. There are some 
 
 ### Arduino wiring and Code
 The wiring is very simple for this project. When I upload the code, I should be able to control the servo motor forward by pressing the Blue button. And stops when I pressed the red button.
-
-
-## Testing
 
 
 
