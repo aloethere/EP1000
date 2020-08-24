@@ -67,22 +67,84 @@ Initially I plan to make the housing out of laser cuts, however my design falls 
 The only part that was 3D printed was the spool extension i used to make the split-flap display hold and hang up. It is made of two parts. One is a hollow rod that fits the shape of the motor shaft. And another was an extension shaft to fit the hole of the wheel. The two parts were then forced fit together with a clamp.
 ![](https://github.com/refrigerated/EP1000/blob/master/docs/images/3d%20printing.....mp4)
 
-This is the 3D that I design but decided to pass. It would take too much time to print and I wasnt sure if the house dimensions are measured perfectly. I am relieved that I laser cutted the housing instead.
+This is the 3D housing that I design but decided to pass. It would take too much time to print and I wasnt sure if the house dimensions are measured perfectly. I am relieved that I laser cutted the housing instead. 
+<iframe src="https://ichat754.autodesk360.com/shares/public/SH56a43QTfd62c1cd968f05c39e96cc72d81?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
 
 
 ### Arduino wiring and Code
 
-Stepper Motor 28BYJ-48:
+Stepper Motor 28BYJ-48:</br>
 The 28BYJ-48 is a 5-wire unipolar stepper motor that runs on 5 volts. According to the data sheet, this motor runs in full step mode, each step corresponds to a rotation of 11.25°. That means there are 32 steps per revolution (360°/11.25° = 32).
-![]()
+![](https://github.com/refrigerated/EP1000/blob/master/docs/images/Stepper%20motor.png?raw=true)
 
 
-ULN2003 Driver board:
+ULN2003 Driver board: </br>
 The board has a connector that mates the motor wires perfectly which makes it very easy to connect the motor to the board. There are also connections for four control inputs as well as power supply connections. The board has four LEDs that show activity on the four control input lines (to indicate stepping state). They provide a nice visual when stepping.
-![]()
+![](https://github.com/refrigerated/EP1000/blob/master/docs/images/ULN%20driver.png?raw=true)
 
 The wiring is quite simple for this project. When I upload the code, I should be able to control the stepper motor forward by pressing the Red button. And stops when I released it. It is programmed this way so that the user may control to display what number he chooses to show. 
 
+'''
+int Pin1 = 10;//IN1 is connected to 10 
+int Pin2 = 11;//IN2 is connected to 11  
+int Pin3 = 12;//IN3 is connected to 12  
+int Pin4 = 13;//IN4 is connected to 13 
+int switchCW  =2;//define input pin for CW push button
+
+ 
+int pole1[] ={0,0,0,0, 0,1,1,1, 0};//pole1, 8 step values
+int pole2[] ={0,0,0,1, 1,1,0,0, 0};//pole2, 8 step values
+int pole3[] ={0,1,1,1, 0,0,0,0, 0};//pole3, 8 step values
+int pole4[] ={1,1,0,0, 0,0,0,1, 0};//pole4, 8 step values
+
+
+int poleStep = 0; 
+int  dirStatus = 3;
+
+void setup() 
+{ 
+  
+ pinMode(Pin1, OUTPUT);//define pin for ULN2003 in1 
+ pinMode(Pin2, OUTPUT);//define pin for ULN2003 in2   
+ pinMode(Pin3, OUTPUT);//define pin for ULN2003 in3   
+ pinMode(Pin4, OUTPUT);//define pin for ULN2003 in4   
+
+ pinMode(switchCW,INPUT_PULLUP); 
+ 
+} 
+ void loop() 
+{ 
+  if(digitalRead(switchCCW) == LOW) 
+  {
+    dirStatus =1;
+  }else if(digitalRead(switchCW) == LOW)
+  {
+   dirStatus  = 2;  
+  }else
+  {
+    dirStatus =3; 
+  }
+ if(dirStatus ==1){ 
+   poleStep++; 
+    driveStepper(poleStep);    
+ }else if(dirStatus ==2){ 
+   poleStep--; 
+    driveStepper(poleStep);    
+ }else{
+  driveStepper(8);   
+ }
+ if(poleStep>7){ 
+   poleStep=0; 
+ } 
+ if(poleStep<0){ 
+   poleStep=7; 
+ } 
+ delay(1); 
+
+}
+
+''' 
 
 
 ## Results
@@ -97,22 +159,22 @@ The result works fine. The motor can be controlled smoothly. However, the top fl
 ## Design files & Source Code
 
 <iframe src="https://ichat754.autodesk360.com/shares/public/SH56a43QTfd62c1cd968533eee3872a38526?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-![Flaps.f3d](https://github.com/refrigerated/EP1000/blob/master/NEW%20Flaps%20design%20.f3d?raw=true)
+[Flaps.f3d](https://github.com/refrigerated/EP1000/blob/master/NEW%20Flaps%20design%20.f3d?raw=true)
 
 <iframe src="https://ichat754.autodesk360.com/shares/public/SH56a43QTfd62c1cd968dc4b930492115511?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-![Wheels.f3d](https://github.com/refrigerated/EP1000/blob/master/NEW%20Wheels.f3d?raw=true)
+[Wheels.f3d](https://github.com/refrigerated/EP1000/blob/master/NEW%20Wheels.f3d?raw=true)
 
 <iframe src="https://ichat754.autodesk360.com/shares/public/SH56a43QTfd62c1cd968b3f8dc6697253c59?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-![Spool.f3d](https://github.com/refrigerated/EP1000/blob/master/NEW%20Spool.f3d?raw=true)
+[Spool.f3d](https://github.com/refrigerated/EP1000/blob/master/NEW%20Spool.f3d?raw=true)
 
 <iframe src="https://ichat754.autodesk360.com/shares/public/SH56a43QTfd62c1cd9685e17363d9778c46e?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-![Housing.f3d](https://github.com/refrigerated/EP1000/blob/master/NEW%20housing.f3d?raw=true)
+[Housing.f3d](https://github.com/refrigerated/EP1000/blob/master/NEW%20housing.f3d?raw=true)
 
 <iframe src="https://ichat754.autodesk360.com/shares/public/SH56a43QTfd62c1cd968117cb34e93499d01?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-![Extended Shaft Part 1.f3d](https://github.com/refrigerated/EP1000/blob/master/NEW%20extended%20shaft%201.f3d?raw=true)
+[Extended Shaft Part 1.f3d](https://github.com/refrigerated/EP1000/blob/master/NEW%20extended%20shaft%201.f3d?raw=true)
 
 <iframe src="https://ichat754.autodesk360.com/shares/public/SH56a43QTfd62c1cd968e53e823e6894216f?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-![Extended Shaft Part 2.f3d](https://github.com/refrigerated/EP1000/blob/master/NEW%20extended%20Shaft%202.f3d?raw=true)
+[Extended Shaft Part 2.f3d](https://github.com/refrigerated/EP1000/blob/master/NEW%20extended%20Shaft%202.f3d?raw=true)
 
 
 ## References
