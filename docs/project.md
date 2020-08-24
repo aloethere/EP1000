@@ -29,7 +29,7 @@ The old school split flap display is cool and mesmerising to look at. To help bu
 - ### Hardware
 		- 2 M4 hex nuts and screws
 		- 3 M4 hex nuts and screws
-		- Drill for 
+		- Drill for attaching screw for Step Motor
 
 
 ## Laser Cuts:
@@ -42,7 +42,7 @@ I begin this project with the flaps first beacuse it is the simplest thing to cr
 
 The numbers on the flaps are placed using white sticker labels since this is just a prototype. I feel that engraving would be too time consuming and could not be undone if I want to change the characters on the flaps. The font im using is called Solari. I printed it out on paper and cut out using penknife so I could trace it on my sticker labels like a stencil. The flap layout with text was a bit tricky, but once you understand the concept it's pretty simple. Basically the "front" of each flap pair is a whole number, and the "back" of each flap pair has the bottom of the next number and the top of the previous number. So "1" has the bottom of "2" behind its top flap, and the top of "0" behind its bottom flap.
 
-The text layout looks like this:
+The text layout looks like this:<br/>
 ![](https://github.com/refrigerated/EP1000/blob/master/docs/images/Flaps%20number%20position%20n.png?raw=true)
 
 **Wheels**
@@ -91,7 +91,24 @@ The result works fine. The motor can be controlled smoothly. However, the top fl
 
 ## Design files & Source Code
 
-Include all original design files and source code for your project.
+<iframe src="https://ichat754.autodesk360.com/shares/public/SH56a43QTfd62c1cd968533eee3872a38526?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+![Flaps.f3d]()
+
+<iframe src="https://ichat754.autodesk360.com/shares/public/SH56a43QTfd62c1cd968dc4b930492115511?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+![Wheels.f3d]()
+
+<iframe src="https://ichat754.autodesk360.com/shares/public/SH56a43QTfd62c1cd968b3f8dc6697253c59?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+![Spool.f3d]()
+
+<iframe src="https://ichat754.autodesk360.com/shares/public/SH56a43QTfd62c1cd9685e17363d9778c46e?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+![Housing.f3d]()
+
+<iframe src="https://ichat754.autodesk360.com/shares/public/SH56a43QTfd62c1cd968117cb34e93499d01?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+![Extended Shaft Part 1.f3d]()
+
+<iframe src="https://ichat754.autodesk360.com/shares/public/SH56a43QTfd62c1cd968e53e823e6894216f?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+![Extended Shaft Part 2.f3d]()
+
 
 ## References
 
