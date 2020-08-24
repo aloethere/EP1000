@@ -57,7 +57,7 @@ Some key points to take note is!
 - Impact: Being hit by ejected parts of machinary or euipment
 - Friction and Abrasion: Eg: Use of sander
 - Stabbing and  Punture: eg: Nail gun use
-- Crushing: 
+- Crushing: Eg; Clamp
 - Shearing: 2 moving parts moving across one another
 - Entanglement: Eg: loose sleeve getting caught in an moving part and drawing the person into the machine.
 
