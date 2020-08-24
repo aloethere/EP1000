@@ -3,7 +3,7 @@ layout: default
 ---
 
 # Split Flap Counter 1-0
-
+ ![](https://github.com/refrigerated/EP1000/blob/master/docs/images/Presentation.png?raw=true)
 
 I plan to create a Youtube/Instagram Subcriber Counter. The counter will use a split flap mechanism and was inspired by counters like [Smiirl](https://www.smiirl.com/en/store?gclid=EAIaIQobChMIvvTDg8Ls6gIVlH0rCh0ipgDZEAAYASAAEgKEMfD_BwE) and [FlapIt](https://www.flapit.com/). However due to its complexity, i decided to make the counter with only a basic and simple prototype. When I have succeeded this prototype for my DFAB project, I would built on it and make it do awesome things, like the initial plan; A subscriber counter or some other ideas, like a clock.
 
@@ -13,23 +13,17 @@ I plan to create a Youtube/Instagram Subcriber Counter. The counter will use a s
 The old school split flap display is cool and mesmerising to look at. To help build my counter, I will be laser cutting a lot of the split flap mechanics and 3D print the house.
 
 
-## Items Needed
+## Bill of Materials
 
-- ### Flaps
-- ### Spool
-- ### Wheel
-- ### 3D Frame or housing
-- ### Electronics:
-		- Arduino Uno
-		- Half size breadboard 
-		- 1 push buttons
-		- Stepper motor 28BYJ-48 and ULN2003 driver motor.
-		- 6 male to female wire
-		- 4 male to male wire.
-- ### Hardware
-		- 2 M4 hex nuts and screws
-		- 3 M4 hex nuts and screws
-		- Drill for attaching screw for Step Motor
+1. Arduino Uno Kit
+2. Breadboard 
+3. 1 push buttons
+4. Stepper motor 28BYJ-48 and ULN2003 driver motor.
+5. 6 male to female wire
+6. male to male wire.
+7. 2 M4 hex nuts and screws
+8. 3 M3 hex nuts and screws
+
 
 
 ## Laser Cuts:
@@ -78,12 +72,16 @@ This is the 3D housing that I design but decided to pass. It would take too much
 ### Arduino wiring and Code
 
 Stepper Motor 28BYJ-48:<br/>
+
 The 28BYJ-48 is a 5-wire unipolar stepper motor that runs on 5 volts. According to the data sheet, this motor runs in full step mode, each step corresponds to a rotation of 11.25°. That means there are 32 steps per revolution (360°/11.25° = 32).
+
 ![](https://github.com/refrigerated/EP1000/blob/master/docs/images/Stepper%20motor.png?raw=true)
 
 
 ULN2003 Driver board: <br/>
+
 The board has a connector that mates the motor wires perfectly which makes it very easy to connect the motor to the board. There are also connections for four control inputs as well as power supply connections. The board has four LEDs that show activity on the four control input lines (to indicate stepping state). They provide a nice visual when stepping.
+
 ![](https://github.com/refrigerated/EP1000/blob/master/docs/images/ULN%20driver.png?raw=true)
 
 The wiring is quite simple for this project. When I upload the code, I should be able to control the stepper motor forward by pressing the Red button. And stops when I released it. It is programmed this way so that the user may control to display what number he chooses to show. 
@@ -184,6 +182,6 @@ The result works fine. The motor can be controlled smoothly. However, the top fl
 
 ## References
 
-3-letter abbreviation Split flap display by[JON-A-TRON](https://www.instructables.com/id/Split-Flap-Display/) </br>
-Prototype four-character display by [Scottbez](https://github.com/scottbez1/splitflap) </br>
+3-letter abbreviation Split flap display by[JON-A-TRON](https://www.instructables.com/id/Split-Flap-Display/) <br/>
+Prototype four-character display by [Scottbez](https://github.com/scottbez1/splitflap) <br/>
 Weather forecast Split Flap by [gabbapeople](https://www.instructables.com/id/IoT-Split-flap-Weather-Forecast-Powered-by-XOD/)
