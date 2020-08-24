@@ -60,7 +60,7 @@ I made a simple cuboid spool and used the pressed fit method to join them togeth
 Initially I plan to make the housing out of laser cuts, however my design falls short for the whole unit to stand up. I created a new one with laser cutting too after carefully measuring the longest end when the whell is spinning.
 ![](https://github.com/refrigerated/EP1000/blob/master/docs/images/original%20design%20of%20side%20housing.jpeg?raw=true)
 
-### 3D Print
+## 3D Print
 The only part that was 3D printed was the spool extension i used to make the split-flap display hold and hang up. It is made of two parts. One is a hollow rod that fits the shape of the motor shaft. And another was an extension shaft to fit the hole of the wheel. The two parts were then forced fit together with a clamp.
 ![](https://github.com/refrigerated/EP1000/blob/master/docs/images/3d%20printing.....mp4)
 
