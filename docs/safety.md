@@ -39,13 +39,27 @@ Fusion 360 is a Computer Aided Design Software that allows the user to design an
 [**Sublime Text 3**](https://www.sublimetext.com)  
 My go-to text editor when documenting on my webpage. I use Sublime Text 3 to write down code in Markdown for this Webpage.
 
+[**PicPick**](https://picpick.app/en/)
+I save and editted pictures using this software. It is extremely fast and useful especuially when I needed to screenshot. 
+
 ## Fablab Safety
 Before using FabLab, we have adhere to the rules and be aware of the machinaries around us. 
-Some key points to take note is:
+Some key points to take note is!
 
-1. Attire
+1. Appropriate Attire
+- Covered shoes
+- Long jeans/pants
+- No loose clothing
 
-2. Mechanical hazards
+2. Electrical/Mechanical hazards
+- Impact: Being hit by ejected parts of machinary or euipment
+- Friction and Abrasion: Eg: Use of sander
+- Stabbing and  Punture: eg: Nail gun use
+- Crushing: 
+- Shearing: 2 moving parts moving across one another
+- Entanglement: Eg: loose sleeve getting caught in an moving part and drawing the person into the machine.
 
-3. Emergency
+3. Emergency (SP Fablab)
+
+
 

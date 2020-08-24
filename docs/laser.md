@@ -20,11 +20,11 @@ When laser cutting, some material is removed in the process. It is important to 
 
 Step 1: Export in DXF. Connect to the the Computer station
 
-Step 2: Make sure Air Purifier and Exhaust fume machine is ON.
+Step 2: Make sure Air Assist and Exhaust fume machine is ON. This machines eliminate the smell and suck up the fumes/smoke from laser cutting.
 
 Step 2: Check your work in CorelDraw. It is best to place profile near to each other to prevent waste. 
 
-Step 3: Change outline colour. the Red is your cutting(Hairline). Black is for engraving
+Step 3: Change outline colour. Red is your cutting(Hairline). Black is for engraving
 
 Step 3: Use the correct setting depending on the material you are using.
 
@@ -34,3 +34,4 @@ Step 5: Optional. Test run the work by letting the lid open.
 
 Step 6: Check time taken and print!
 
+While using the fablab in T1442, Mr Lewis taught me that there are 3 

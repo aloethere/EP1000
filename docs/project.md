@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Split Flap Counter
+# Split Flap Counter 1-0
 Summary project for the Digital Fabrication & Prototyping Fundamentals module
 
 I plan to create a Youtube/Instagram Subcriber Counter. The counter will use a split flap mechanism and was inspired by counters like [Smiirl](https://www.smiirl.com/en/store?gclid=EAIaIQobChMIvvTDg8Ls6gIVlH0rCh0ipgDZEAAYASAAEgKEMfD_BwE) and [FlapIt](https://www.flapit.com/). However due to its complexity, i decided to make the counter with only a basic and simple prototype. When I have succeeded this prototype for my DFAB project, I would built on it and make it do awesome things, like the initial plan; A subscriber counter or some other ideas, like a clock.
@@ -22,14 +22,15 @@ The old school split flap display is cool and mesmerising to look at. To help bu
 - ### Electronics:
 		- Arduino Uno
 		- Half size breadboard 
-		- 3 push buttons
+		- 1 push buttons
 		- Stepper motor 28BYJ-48 and ULN2003 driver motor.
 		- 6 male to female wire
 		- 4 male to male wire.
 - ### Hardware
-		-
-		-
-		-
+		- 2 M4 hex nuts and screws
+		- 3 M4 hex nuts and screws
+		- Drill for 
+
 
 ## Laser Cuts:
 ###Flaps
@@ -53,7 +54,7 @@ I also made 4 rectangluar cuts for my spool to fit in. With some calculations, I
 ![](https://github.com/refrigerated/EP1000/blob/master/docs/images/insert%20extra%20thing.jpeg?raw=true)
 
 ###Spool
-I made a simple square spool and used the pressed fit method to join them together. Then, to ease my assembly, I glued them together.
+I made a simple cuboid spool and used the pressed fit method to join them together. Then, to ease my assembly, I glued them together.
 
 
 ###Plates
@@ -61,21 +62,26 @@ Initially I plan to make the housing out of laser cuts, however my design falls 
 ![](https://github.com/refrigerated/EP1000/blob/master/docs/images/original%20design%20of%20side%20housing.jpeg?raw=true)
 
 ###3D Print
+The only part that was 3D printed was the spool extension i used to make the split-flap display hold and hang up. It is made of two parts. One is a hollow rod that fits the shape of the motor shaft. And another was an extension shaft to fit the hole of the wheel. The two parts were then forced fit together with a clamp.
 ![](https://github.com/refrigerated/EP1000/blob/master/docs/images/3d%20printing.....mp4)
+
+This is the 3D that I design but decided to pass. It would take too much time to print and I wasnt sure if the house dimensions are measured perfectly. I am relieved that I laser cutted the housing instead.
 
 
 ### Arduino wiring and Code
-The wiring is very simple for this project. When I upload the code, I should be able to control the servo motor forward by pressing the Blue button. And stops when I pressed the red button.
+The wiring is quite simple for this project. When I upload the code, I should be able to control the stepper motor forward by pressing the Red button. And stops when I released it. It is programmed this way so that the user may control to display what number he chooses to show. 
 
+Stepper Motor:
+
+ULN2003 Driver motor:
 
 
 ## Results
 
-What result did you get from the full testing of your final project?
+The result works fine. The mmotor can be controlled smoothly. However, the top flap of number 9 does not drop smoothly. The reason must be because of the tight fitted wheels that were glued together. I also made the mistake of placing the sticker numbers upside down. Thus the counter can only be count downwards.
 
 ## Conclusion
-
-What conclusions can you draw from your final project? What are the issues/problems encountered? How did you resolve them? What are the improvements that can be made to your project?
+ I learnt a lot through this project. It is not good looking as I expected and there were a decent amount of mistakes made in measurements. I now learn that I should lower down of my expectations as there were a lot of trial and errors in my design.
 
 ## Design files & Source Code
 
