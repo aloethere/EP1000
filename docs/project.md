@@ -45,9 +45,9 @@ This part is very tricky for me to get it right. Every millimeter makes a differ
 The diameter of the wheel also plays a role on making sure it can turn well. I used 60mm for my diameter. One of the wheel has a shape precisedly cutted out following the shape of my stepper motor on the middle. And my other wheel has a M4 hex cutted right on its middle.
 
 I also made 4 rectangluar cuts for my spool to fit in. With some calculations, I could easily figure where the cuts should be.
+
 ![](https://github.com/refrigerated/EP1000/blob/master/docs/images/wheels%20with%20hex%20nut%20n.png?raw=true)
 ![](https://github.com/refrigerated/EP1000/blob/master/docs/images/left%20side%20of%20wheel%20with%20hex%20n.png?raw=true)
-![]()
 
 
 **Spool**
@@ -58,11 +58,13 @@ I made a simple cuboid spool and used the pressed fit method to join them togeth
 **Plates**
 
 Initially I plan to make the housing out of laser cuts, however my design falls short for the whole unit to stand up. I created a new one with laser cutting too after carefully measuring the longest end when the whell is spinning.
+
 ![](https://github.com/refrigerated/EP1000/blob/master/docs/images/original%20design%20of%20side%20housing.jpeg?raw=true)
 
 ## 3D Print
 The only part that was 3D printed was the spool extension i used to make the split-flap display hold and hang up. It is made of two parts. One is a hollow rod that fits the shape of the motor shaft. And another was an extension shaft to fit the hole of the wheel. The two parts were then forced fit together with a clamp.
-![](https://github.com/refrigerated/EP1000/blob/master/docs/images/3d%20printing.....mp4)
+
+![](https://github.com/refrigerated/EP1000/blob/master/docs/extension.png?raw=true)
 
 This is the 3D housing that I design but decided to pass. It would take too much time to print and I wasnt sure if the house dimensions are measured perfectly. I am relieved that I laser cutted the housing instead. 
 <iframe src="https://ichat754.autodesk360.com/shares/public/SH56a43QTfd62c1cd968f05c39e96cc72d81?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
