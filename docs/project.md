@@ -3,7 +3,7 @@ layout: default
 ---
 
 # Split Flap Counter 1-0
-Summary project for the Digital Fabrication & Prototyping Fundamentals module
+
 
 I plan to create a Youtube/Instagram Subcriber Counter. The counter will use a split flap mechanism and was inspired by counters like [Smiirl](https://www.smiirl.com/en/store?gclid=EAIaIQobChMIvvTDg8Ls6gIVlH0rCh0ipgDZEAAYASAAEgKEMfD_BwE) and [FlapIt](https://www.flapit.com/). However due to its complexity, i decided to make the counter with only a basic and simple prototype. When I have succeeded this prototype for my DFAB project, I would built on it and make it do awesome things, like the initial plan; A subscriber counter or some other ideas, like a clock.
 
@@ -41,6 +41,7 @@ I begin this project with the flaps first beacuse it is the simplest thing to cr
 The numbers on the flaps are placed using white sticker labels since this is just a prototype. I feel that engraving would be too time consuming and could not be undone if I want to change the characters on the flaps. The font im using is called Solari. I printed it out on paper and cut out using penknife so I could trace it on my sticker labels like a stencil. The flap layout with text was a bit tricky, but once you understand the concept it's pretty simple. Basically the "front" of each flap pair is a whole number, and the "back" of each flap pair has the bottom of the next number and the top of the previous number. So "1" has the bottom of "2" behind its top flap, and the top of "0" behind its bottom flap.
 
 The text layout looks like this:<br/>
+
 ![](https://github.com/refrigerated/EP1000/blob/master/docs/images/Flaps%20number%20position%20n.png?raw=true)
 
 **Wheels**
@@ -56,10 +57,12 @@ I also made 4 rectangluar cuts for my spool to fit in. With some calculations, I
 
 
 **Spool**
+
 I made a simple cuboid spool and used the pressed fit method to join them together. Then, to ease my assembly, I glued them together.
 
 
 **Plates**
+
 Initially I plan to make the housing out of laser cuts, however my design falls short for the whole unit to stand up. I created a new one with laser cutting too after carefully measuring the longest end when the whell is spinning.
 ![](https://github.com/refrigerated/EP1000/blob/master/docs/images/original%20design%20of%20side%20housing.jpeg?raw=true)
 
@@ -74,18 +77,20 @@ This is the 3D housing that I design but decided to pass. It would take too much
 
 ### Arduino wiring and Code
 
-Stepper Motor 28BYJ-48:</br>
+Stepper Motor 28BYJ-48:<br/>
 The 28BYJ-48 is a 5-wire unipolar stepper motor that runs on 5 volts. According to the data sheet, this motor runs in full step mode, each step corresponds to a rotation of 11.25°. That means there are 32 steps per revolution (360°/11.25° = 32).
 ![](https://github.com/refrigerated/EP1000/blob/master/docs/images/Stepper%20motor.png?raw=true)
 
 
-ULN2003 Driver board: </br>
+ULN2003 Driver board: <br/>
 The board has a connector that mates the motor wires perfectly which makes it very easy to connect the motor to the board. There are also connections for four control inputs as well as power supply connections. The board has four LEDs that show activity on the four control input lines (to indicate stepping state). They provide a nice visual when stepping.
 ![](https://github.com/refrigerated/EP1000/blob/master/docs/images/ULN%20driver.png?raw=true)
 
 The wiring is quite simple for this project. When I upload the code, I should be able to control the stepper motor forward by pressing the Red button. And stops when I released it. It is programmed this way so that the user may control to display what number he chooses to show. 
 
-'''
+
+
+```js
 int Pin1 = 10;//IN1 is connected to 10 
 int Pin2 = 11;//IN2 is connected to 11  
 int Pin3 = 12;//IN3 is connected to 12  
@@ -144,7 +149,7 @@ void setup()
 
 }
 
-''' 
+``` 
 
 
 ## Results
