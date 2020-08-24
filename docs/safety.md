@@ -47,11 +47,13 @@ Before using FabLab, we have adhere to the rules and be aware of the machinaries
 Some key points to take note is!
 
 1. Appropriate Attire
+
 - Covered shoes
 - Long jeans/pants
 - No loose clothing
 
 2. Electrical/Mechanical hazards
+
 - Impact: Being hit by ejected parts of machinary or euipment
 - Friction and Abrasion: Eg: Use of sander
 - Stabbing and  Punture: eg: Nail gun use
@@ -60,6 +62,7 @@ Some key points to take note is!
 - Entanglement: Eg: loose sleeve getting caught in an moving part and drawing the person into the machine.
 
 3. Emergency (SP Fablab)
+
 In case of accident or fire: 
 - For ambulance or fire brigade, call 995
 - Instruct them to enter Gate 1 (Main Entrance) along Dover Road

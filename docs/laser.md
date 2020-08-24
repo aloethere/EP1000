@@ -8,10 +8,12 @@ To use a laser cutter, here are some point to take note when printing.
 
 1. Material and thickness 
 
+
 2. Laser Setting
 - Power 
 - Speed
 - PPI
+- Z axis
 
 3. Kerf
 When laser cutting, some material is removed in the process. It is important to keep this in mind when sketching CAD. For instance if you want a press fit design of a box, we have to make about 0.2mm-0.3mm adjustment. If the correct adjustment is made, we can fit the pieces together perfectly without using any adhesive.
@@ -34,4 +36,4 @@ Step 5: Optional. Test run the work by letting the lid open.
 
 Step 6: Check time taken and print!
 
-While using the fablab in T1442, Mr Lewis taught me that there are 3 
+W
