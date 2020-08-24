@@ -92,26 +92,26 @@ The result works fine. The motor can be controlled smoothly. However, the top fl
 ## Design files & Source Code
 
 <iframe src="https://ichat754.autodesk360.com/shares/public/SH56a43QTfd62c1cd968533eee3872a38526?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-![Flaps.f3d]()
+![Flaps.f3d](https://github.com/refrigerated/EP1000/blob/master/NEW%20Flaps%20design%20.f3d?raw=true)
 
 <iframe src="https://ichat754.autodesk360.com/shares/public/SH56a43QTfd62c1cd968dc4b930492115511?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-![Wheels.f3d]()
+![Wheels.f3d](https://github.com/refrigerated/EP1000/blob/master/NEW%20Wheels.f3d?raw=true)
 
 <iframe src="https://ichat754.autodesk360.com/shares/public/SH56a43QTfd62c1cd968b3f8dc6697253c59?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-![Spool.f3d]()
+![Spool.f3d](https://github.com/refrigerated/EP1000/blob/master/NEW%20Spool.f3d?raw=true)
 
 <iframe src="https://ichat754.autodesk360.com/shares/public/SH56a43QTfd62c1cd9685e17363d9778c46e?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-![Housing.f3d]()
+![Housing.f3d](https://github.com/refrigerated/EP1000/blob/master/NEW%20housing.f3d?raw=true)
 
 <iframe src="https://ichat754.autodesk360.com/shares/public/SH56a43QTfd62c1cd968117cb34e93499d01?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-![Extended Shaft Part 1.f3d]()
+![Extended Shaft Part 1.f3d](https://github.com/refrigerated/EP1000/blob/master/NEW%20extended%20shaft%201.f3d?raw=true)
 
 <iframe src="https://ichat754.autodesk360.com/shares/public/SH56a43QTfd62c1cd968e53e823e6894216f?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-![Extended Shaft Part 2.f3d]()
+![Extended Shaft Part 2.f3d](https://github.com/refrigerated/EP1000/blob/master/NEW%20extended%20Shaft%202.f3d?raw=true)
 
 
 ## References
 
-[Button Spit Flap White](https://www.instructables.com/id/Split-Flap-Display/)
-[Scottbez Split Flap github](https://github.com/scottbez1/splitflap)
-[Weather forecast Split Flap](https://www.instructables.com/id/IoT-Split-flap-Weather-Forecast-Powered-by-XOD/)
+3-letter abbreviation Split flap display by[JON-A-TRON](https://www.instructables.com/id/Split-Flap-Display/) </br>
+Prototype four-character display by [Scottbez](https://github.com/scottbez1/splitflap) </br>
+Weather forecast Split Flap by [gabbapeople](https://www.instructables.com/id/IoT-Split-flap-Weather-Forecast-Powered-by-XOD/)

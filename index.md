@@ -7,5 +7,3 @@ layout: default
 ## Welcome to my site.
 
 This webpage is called refrigerated. It is set-up using github. I will be documenting my learning process of the EP1000 module here.  
-
-Sir, help I could figure out dow to edit my avatar.
