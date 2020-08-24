@@ -60,6 +60,10 @@ Some key points to take note is!
 - Entanglement: Eg: loose sleeve getting caught in an moving part and drawing the person into the machine.
 
 3. Emergency (SP Fablab)
+In case of accident or fire: 
+- For ambulance or fire brigade, call 995
+- Instruct them to enter Gate 1 (Main Entrance) along Dover Road
+- Inform Campus Security by calling 6772-1234 for all emergencies and incident reporting
 
 
 
