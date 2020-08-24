@@ -11,10 +11,14 @@ layout: default
 
 ### Using Arduino IDE
 Step 1: Write Code
+
 Step 2: Compile
+
 Step 3: Upload to UNO board
+
 Step 4: Observe result
-* press reset button to refresh
+
+Note: press reset button to refresh
 
 ### Interfacing LCD Panel using I2C
 This task is using 16×2 LCD display with HD44780 controller.
