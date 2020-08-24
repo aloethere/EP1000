@@ -38,8 +38,6 @@ The old school split flap display is cool and mesmerising to look at. To help bu
 
 I begin this project with the flaps first beacuse it is the simplest thing to create. I drew my sketch on Fusion 360 and laser cut on a 3mm acrylic board. Since the flaps are quite thick to be placed on a rotating wheel, I could only place digit number 1 till 0. I followed the dimension of a standard business card as my guide. From here, I could estimate the dimension of other laser cutting parts.
 
-![](https://github.com/refrigerated/EP1000/blob/master/docs/images/splitflap1.png?raw=true)
-
 The numbers on the flaps are placed using white sticker labels since this is just a prototype. I feel that engraving would be too time consuming and could not be undone if I want to change the characters on the flaps. The font im using is called Solari. I printed it out on paper and cut out using penknife so I could trace it on my sticker labels like a stencil. The flap layout with text was a bit tricky, but once you understand the concept it's pretty simple. Basically the "front" of each flap pair is a whole number, and the "back" of each flap pair has the bottom of the next number and the top of the previous number. So "1" has the bottom of "2" behind its top flap, and the top of "0" behind its bottom flap.
 
 The text layout looks like this:<br/>
@@ -73,11 +71,18 @@ This is the 3D that I design but decided to pass. It would take too much time to
 
 
 ### Arduino wiring and Code
+
+Stepper Motor 28BYJ-48:
+The 28BYJ-48 is a 5-wire unipolar stepper motor that runs on 5 volts. According to the data sheet, this motor runs in full step mode, each step corresponds to a rotation of 11.25°. That means there are 32 steps per revolution (360°/11.25° = 32).
+![]()
+
+
+ULN2003 Driver board:
+The board has a connector that mates the motor wires perfectly which makes it very easy to connect the motor to the board. There are also connections for four control inputs as well as power supply connections. The board has four LEDs that show activity on the four control input lines (to indicate stepping state). They provide a nice visual when stepping.
+![]()
+
 The wiring is quite simple for this project. When I upload the code, I should be able to control the stepper motor forward by pressing the Red button. And stops when I released it. It is programmed this way so that the user may control to display what number he chooses to show. 
 
-Stepper Motor:
-
-ULN2003 Driver motor:
 
 
 ## Results
