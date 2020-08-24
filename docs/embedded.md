@@ -7,6 +7,8 @@ layout: default
 ## Introduction to Arduino
  Arduino Uno is an open-source microcontroller board based on the Microchip ATmega328P microcontroller. This microcontroller is a good choice as it helps a those getting started with electronics a basic understanding in embedded programming. It is also cheap and widely available. We can make devices work according to our needs and requirements by using this board.
 
+ ![](https://github.com/refrigerated/EP1000/blob/master/docs/images/arduino.png?raw=true)
+
 ### Using Arduino IDE
 Step 1: Write Code
 Step 2: Compile
@@ -38,14 +40,14 @@ void loop() {
 }
 ```
 
-![]()
+![](https://github.com/refrigerated/EP1000/blob/master/docs/LCD.png?raw=true)
 
 ### Simple LED control
 
 - connect a LED with a current limiting resistor (220 ohm) to port 6 of the Arduino Uno board.
 write a program to blink the LED in a variety of patterns.
 
-![]()
+![](https://github.com/refrigerated/EP1000/blob/master/docs/images/task%201.png?raw=true)
 
 ```
 const int RED=8;
